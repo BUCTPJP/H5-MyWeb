@@ -80,6 +80,8 @@ a{
 }
 #网站首页 h2{
 	color: #fff;
+	font-size: small;
+	font-family: 楷体;
 }
 #网站首页 h2:hover{
 	color: rgb(234, 250, 8);
@@ -117,7 +119,7 @@ a{
 	padding-left: 10px;
 	width: 35%;
 	height: 60%;
-	transform: translateY(-25px);
+	transform: translateY(-5px);
 	margin-left: 50px;
 	position: relative;
 	display: inline-block;
