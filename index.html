@@ -13,7 +13,9 @@
     <link href="css/css.css" rel="stylesheet" type="text/css">
 </head>
 <body>
-    <img src="img/logo1.png" alt="PJP小站" id="logo1">
+    <img src="img/logo1.png" alt="PJP小站" id="logo">
+    <button id="换肤1" type="button" onclick="document.getElementById('logo').src='img/logo2.png'"></button>
+    <button id="换肤2" type="button" onclick="document.getElementById('logo').src='img/logo1.png'"></button>
     <form id="box" action="" method="get">
         <input type="text" name="search" placeholder="请输入关键字" required="required" style="background: rgb(159, 250, 220);">
         <button id="search" style="display: inline;">搜一下</button>
@@ -184,7 +186,7 @@
         </div>
         <aside id="疫情动态">
             <h2><span style="color: #fff;">疫情动态</span></h2>
-            <section id="重大新闻">
+            <section id="政策查询">
                 <article>
                     <a href="http://bmfw.www.gov.cn/yqfxdjcx/risk.html">
                         <h3><span style="font-size: small;color: gold;">国内中高风险地区查询 &#8194 <span style="color: black;">&#8594</span></span></h3>
@@ -199,27 +201,36 @@
             <section id="新增病例">
                 <marquee direction="up" onmouseover="this.stop()" onmouseout="this.start()">
                     <h3>2月10日0—24时,31个省报告新<br>
-                        增确诊病例101例。<br>
-                        <span style="color:rgb(255, 0, 0)">其中境外输入病例45例:</span><br>
-                        (广东15例,上海12例,福建10例,
-                        浙江3例,广西2例,天津1例,山东
-                        1例,云南1例),含10例由无症状
-                        感染者转为确诊病例广东6例,浙
-                        江2例,广西2例)
+                        增确诊病例102例。<br>
+                        <span style="color:rgb(255, 0, 0)">其中境外输入病例56例:</span><br>
+                        (广东24例,上海13例,福建6例,<br>
+                        山东3例,云南3例,湖南2例,广西<br>
+                        2例,天津1例,辽宁1例,四川1例)<br>
+                        含10例由无症状感染者转为确诊<br>
+                        病例(广东9例,四川1例)
                     </h3>
                     <h3>
                         <p>
-                            <span style="color:rgba(255, 0, 21, 0.911)">本土病例56例</span>:<br>
-                            广西33例,均在百色市;<br>
-                            贵州1例,在铜仁市;<br>
-                            辽宁22例,其中葫芦<br>
-                            岛市21例、沈阳市1例;<br>
+                            <span style="color:rgba(255, 0, 21, 0.911)">本土病例46例</span>:<br>
+                            广西2例,均在百色市;<br>
+                            广东3例,均在深圳市;<br>
+                            辽宁15例,均在葫芦市;<br>
+                            江苏19例,其中苏州市,<br>
+                            18例、南通市1例;<br>
+                            内蒙古7例,其中呼伦贝尔<br>
+                            市5例、呼和浩特市2例<br>
                         </p>
                     </h3>
                 </marquee>
             </section>
         </aside>
-        <img src="img/logo2.png" alt="PJP小站" id="logo2">
+        <div id="提示1">
+            <marquee direction="left" behavior="scroll" width="100%" height="20%" color="#fff" onmouseover="this.stop()" onmouseout="this.start()" >
+                <span style="font-size: large;color: crimson; font-weight: bold;">
+                    如果点击资源或软件链接没有反应,请尝试依次点击导航栏4个按钮,并稍等2-3秒
+                </span>
+            </marquee>
+        </div>
         <footer id="版权声明1">Copyright 2021-2022 www.buctpjp.byethost4.com 版权所有</footer>
     </section>
     <section id="软件下载">
@@ -317,9 +328,9 @@
         <footer id="版权声明3">Copyright 2021-2022 www.buctpjp.byethost4.com 版权所有</footer>
     </section>
     <section id="留言反馈">
-        <div id="提示">
+        <div id="提示2">
             <marquee direction="left" behavior="scroll" width="100%" height="20%" color="#fff" onmouseover="this.stop()" onmouseout="this.start()" >
-                <span style="font-size: large;color: crimson;">
+                <span style="font-size: large;color: crimson; font-weight: bold;">
                     如果下载链接无法打开,请将网址中的 lanzouw 替换为 lanzoui 。如果还是无法打开,可以通过下方的联系方式进行留言反馈。
                 </span>
             </marquee>

@@ -23,9 +23,31 @@ body{
 	min-width:1200px;
 	overflow:hidden;
 }
-#logo1{
+#logo{
 	height: 100px;
 	width: 400px;
+}
+#换肤1{
+	position: absolute;
+	background: url(D:/桌面/MyWeb/img/换肤1.ico)no-repeat;
+	width: 30px;
+	height:35px;
+	border:0px;
+	cursor:pointer;
+	right: 23%;
+	top: 4%;
+	z-index: 201;
+}
+#换肤2{
+	position: absolute;
+	background: url(D:/桌面/MyWeb/img/换肤2.ico)no-repeat;
+	width: 30px;
+	height:35px;
+	border:0px;
+	cursor:pointer;
+	right: 20%;
+	top: 4%;
+	z-index: 201;
 }
 #box{
 	position: absolute;
@@ -138,10 +160,10 @@ a{
 	clear: both;
 	margin-right: 10px;
 }
-#logo2{
-	position: relative;
-	left: 30%;
-	transform: translateY(-70%);
+#提示1{
+	position: absolute;
+	bottom:8% ;
+	width: 100%;
 }
 #版权声明1{
 	background-color: rgb(194, 191, 191);
@@ -247,7 +269,7 @@ a{
 	left:0px;
 	height: 60px;
 }
-#提示{
+#提示2{
 	margin-top: 10%;
 }
 #联系{
