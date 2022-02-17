@@ -29,7 +29,7 @@ body{
 }
 #换肤1{
 	position: absolute;
-	background: url(/img/换肤1.ico)no-repeat;
+	background: url(../img/换肤1.ico)no-repeat;
 	width: 30px;
 	height:35px;
 	border:0px;
@@ -40,7 +40,7 @@ body{
 }
 #换肤2{
 	position: absolute;
-	background: url(/img/换肤2.ico)no-repeat;
+	background: url(../img/换肤2.ico)no-repeat;
 	width: 30px;
 	height:35px;
 	border:0px;
@@ -182,32 +182,27 @@ a{
 	border-color: gold;
 	width: 15%;
 	word-spacing: 5em;
+	cursor: pointer;
+}
+#软件下载 h2.hide::after{
+	content: '';
+	width: 0;
+	height: 0;
+	border-width: 7px;
+	border-style: solid;
+	position: absolute;
+	border-color: #fff transparent transparent transparent;
+	transform: translateY(100%);
+	left: 20%;
+}
+#软件下载 aside.hide{
+	display: none;
 }
 #软件下载 h3{
 	color: #fff;
 }
 #软件下载 h3:hover{
 	color: rgb(234, 250, 8);
-}
-#PC端软件{
-	border-width: 2px;
-	border-style: solid;
-	border-radius: 4px;
-	border-color: cyan;
-	padding: 10px 20px;
-	width:auto;
-	color:#fff;
-	text-align: center;
-}
-#Android端软件{
-	border-width: 2px;
-	border-style: solid;
-	border-radius: 4px;
-	border-color: cyan;
-	padding: 10px 20px;
-	width:auto;
-	color: #fff;
-	text-align: center;
 }
 #PC端{
 	display: inline-block;
@@ -219,6 +214,26 @@ a{
 	display: inline-block;
 	width: 45%;
 	transform: translateY(43%);
+}
+#PC端软件{
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 4px;
+	border-color: cyan;
+	padding: 10px 20px;
+	width:35%;
+	color:#fff;
+	text-align: center;
+}
+#Android端软件{
+	border-width: 2px;
+	border-style: solid;
+	border-radius: 4px;
+	border-color: cyan;
+	padding: 10px 20px;
+	width: 35%;
+	color: #fff;
+	text-align: center;
 }
 #装饰3{
 	position: relative;
