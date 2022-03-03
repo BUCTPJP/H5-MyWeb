@@ -313,10 +313,17 @@ a{
 	background: url(../img/背景.png);
 	background-size: cover;
 }
+#留言反馈 a{
+	color: brown;
+}
+#留言反馈 a:hover{
+	color: black;
+	font-size: larger;
+}
 #提示2{
 	margin-top: 10%;
 }
-#联系{
+#提示3{
 	color:black;
 	font-family:sans-serif ;
 	font-size: 24px;
@@ -329,6 +336,42 @@ a{
 	-webkit-transform: translateY(-50%);
 	-ms-transform: translateY(-50%);
 	-o-transform: translateY(-50%);
+}
+#QQ{
+	position:absolute;
+	border-color: black;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 20px;
+	padding: 10px 20px;
+	text-align: center;
+	top: 25%;
+	left: 20%;
+	height: auto;
+}
+#QQ邮箱{
+	position:absolute;
+	border-color: black;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 20px;
+	padding: 10px 20px;
+	text-align: center;
+	top: 70%;
+	left: 54%;
+	height: auto;
+}
+#Google邮箱{
+	position:absolute;
+	border-color: black;
+	border-style: solid;
+	border-width: 3px;
+	border-radius: 20px;
+	padding: 10px 20px;
+	text-align: center;
+	top: 40%;
+	left: 70%;
+	height: auto;
 }
 #版权声明4{
 	background-color: rgb(194, 191, 191);
