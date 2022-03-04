@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-cmn-Hans">                                    
+<head>                                     
+    <meta charset="UTF-8"> 
+    <meta name="renderer" content="webkit">  
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="format-detection" content="telephone=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="robots" content="all"> 
+    <title>Login</title>
+    <link href="/css/login.v1.0.css" rel="stylesheet" type="text/css">
+</head>
+<body>
+    <form action="../php/login.php" method="post">
+        <fieldset>
+            <legend>用户登录</legend>
+            <ul>
+                <li>
+                    <label>用户名：</label>
+                    <input type="text" name="username">
+                </li>
+                <li>
+                    <label>密码：</label>
+                    <input type="password" name="password">
+                </li>
+                <li>
+                    <label> </label>
+                    <input type="checkbox" name="remember" value="yes">7天内自动登录
+                </li>
+                <li>
+                    <label> </label>
+                    <input type="submit" name="login" value="登录">
+                </li>
+            </ul>
+        </fieldset>
+    </form>
+</body>
