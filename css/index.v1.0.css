@@ -72,9 +72,24 @@ audio{
 }
 #dateTime{
 	position: absolute;
-	top: 3%;
+	top: 2%;
 	right: 3%;
 	z-index: 201;
+	border-style: solid;
+	border-radius: 10px;
+	background-color: rgb(238, 193, 193);
+	width: 12%;
+	height: 6%;
+	text-align: center;
+	padding: 5px;
+	font-family: sans-serif;
+}
+#he-plugin-simple{
+	position: absolute;
+	z-index: 201;
+	top: 2%;
+	left: 70%;
+	width: 12%;
 }
 #box{
 	position: absolute;
@@ -205,7 +220,7 @@ a{
 	bottom:0px;
 	left:0px;
 	height: 60px;
-  }
+}
 #软件下载{
 	overflow: scroll;
 	background: url(../img/背景.png);
